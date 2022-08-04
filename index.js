@@ -1,3 +1,12 @@
+import basicEslint from './modules/basic'
+import tsEslint from './modules/ts'
+import reactEslint from './modules/react'
+import vueEslint from './modules/vue'
 module.exports = {
-  extends: ['@imyangyong/eslint-config-react', '@imyangyong/eslint-config-vue'],
+  extends: [
+    basicEslint,
+    tsEslint,
+    reactEslint,
+    vueEslint
+  ],
 }

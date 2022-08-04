@@ -1,6 +1,6 @@
 {
   "name": "@jackjo/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "jackjo eslint rules",
   "keywords": [],
   "license": "MIT",
@@ -14,8 +14,6 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@imyangyong/eslint-config-react": "^0.4.1",
-    "@imyangyong/eslint-config-vue": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint-config-standard": "17.0.0-1",
@@ -37,5 +35,13 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcj2121/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zcj2121/eslint-config/issues"
+  },
+  "homepage": "https://github.com/zcj2121/eslint-config#readme"
 }

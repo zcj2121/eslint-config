@@ -1,4 +1,4 @@
-# @yeepay/eslint-config
+# @jackjo/eslint-config
 
 [![npm](https://img.shields.io/npm/v/@jackjo/eslint-config)](https://npmjs.com/package/@jackjo/eslint-config)
 
